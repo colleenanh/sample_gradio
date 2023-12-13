@@ -9,4 +9,4 @@ with gr.Blocks() as demo:
   greet_btn = gr.Button("Greet")
   greet_btn.click(fn=greet, inputs=name, outputs=output, api_name="greet")
 
-demo.launch(server_name = "0.0.0.0", server_port=143)
+demo.launch(server_name = "0.0.0.0", server_port=7860)
